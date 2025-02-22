@@ -7,7 +7,13 @@
   <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
 </p>
 
-> ✍ I'm a software developer at [Utop @ FPT](https://utop.io/).
+> I am a student at FPT University, passionate about technology, software development, and AI. I enjoy exploring new technologies, building projects, and collaborating with others on innovative ideas.
+
+💻 My interests include programming, web development, AI/ML, and cybersecurity.
+🚀 I'm always eager to learn and contribute to open-source projects.
+📚 Currently improving my skills in Python, Java, and full-stack development.
+
+Let's connect and create something amazing together!
 
 
 
