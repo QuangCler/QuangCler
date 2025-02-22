@@ -6,8 +6,7 @@
 <p align="center">
   <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
 </p>
-
-> I am a student at FPT University, passionate about technology, software development, and AI. I enjoy exploring new technologies, building projects, and collaborating with others on innovative ideas.
+I am a student at FPT University, passionate about technology, software development, and AI. I enjoy exploring new technologies, building projects, and collaborating with others on innovative ideas.
 
 💻 My interests include programming, web development, AI/ML, and cybersecurity.
 🚀 I'm always eager to learn and contribute to open-source projects.
