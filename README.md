@@ -2,17 +2,15 @@
 <img align="right" width="64" src="https://github.com/TienNHM.png" />
 <!-- <img align="right" width="64" src="https://img.icons8.com/color/48/vietnam-circular.png" /> -->
 
-<h2 align="center">Hi 👋, I'm QuangCler</h2>
-<p align="center">
-  <h3 align="center">A passionate developer from Vietnam 🇻🇳 </h3>
-</p>
-I am a student at FPT University, passionate about technology, software development, and AI. I enjoy exploring new technologies, building projects, and collaborating with others on innovative ideas.
+# 👋 Hi there!
 
-💻 My interests include programming, web development, AI/ML, and cybersecurity.
-🚀 I'm always eager to learn and contribute to open-source projects.
-📚 Currently improving my skills in Python, Java, and full-stack development.
+I am a **student at FPT University**, passionate about **technology, software development, and AI**.  
+I enjoy exploring new technologies, building projects, and collaborating with others on innovative ideas.
 
-Let's connect and create something amazing together!
+## 🔥 About Me
+- 💻 Interested in **programming, web development, AI/ML, and cybersecurity**.
+- 🚀 Always eager to learn and contribute to open-source projects.
+- 📚 Currently improving my skills in **Python, Java, and full-stack development**.
 
 
 
