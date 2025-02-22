@@ -65,4 +65,4 @@ Let's connect and create something amazing together!
 ](https://www.coursera.org/account/accomplishments/certificate/DVXXD98ESKLP)
 - [![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Python](https://www.kaggle.com/learn/certification/quangcler/intro-to-deep-learning)
 - [![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Machine Learning](https://www.kaggle.com/learn/certification/quangcler/time-series)
-- [![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Deep Learning]([https://www.kaggle.com/learn/certification/nguyenhuynhminhtien/intro-to-deep-learning](https://www.kaggle.com/learn/certification/quangcler/intro-to-game-ai-and-reinforcement-learning))
+- [![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Deep Learning](https://www.kaggle.com/learn/certification/quangcler/intro-to-game-ai-and-reinforcement-learning)
