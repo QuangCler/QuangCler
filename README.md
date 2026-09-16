@@ -6,6 +6,7 @@
 
 <br/>
 
+<a href="https://tranngocquang.com.vn"><img src="https://img.shields.io/badge/Portfolio-tranngocquang.com.vn-C6FF3D?style=for-the-badge&logo=cloudflare&logoColor=black&labelColor=0B0D12" /></a>
 <a href="https://www.linkedin.com/in/quangcler/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://www.kaggle.com/quangcler"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 <a href="mailto:quang.aidev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
