@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:8957e5&height=230&section=header&text=Tran%20Ngoc%20Quang&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%203D%20Reconstruction%20%E2%80%A2%20LLM%20Systems&descAlignY=56&descSize=18&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:8957e5&height=230&section=header&text=Tran%20Ngoc%20Quang&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%203D%20Reconstruction%20%E2%80%A2%20LLM%20Systems&descAlignY=56&descSize=18" />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Shipping+them+27%25+faster+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%E2%80%94+Viettel+AI+Race+2026+Finalist;Building+production+LLM+systems+at+TSC" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Making+them+fast+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%E2%80%94+Viettel+AI+Race+2026+Finalist;Building+production+LLM+systems+at+TSC" alt="Typing SVG" />
 
 <br/>
 
@@ -15,38 +15,34 @@
 
 <br/>
 
-## 🧑‍💻 About me
+## 👋 hey, I'm Quang
 
-```python
-class Quang:
-    role       = "AI Engineer"
-    based_in   = "Ho Chi Minh City, Vietnam 🇻🇳"
-    focus      = ["Computer Vision", "3D Gaussian Splatting", "Self-Supervised Learning", "LLM Systems"]
-    ships_with = ["PyTorch", "TensorRT", "ONNX", "Docker"]
-    building   = "Production AI at TSC — Team Solo Code"
-    motto      = "If it isn't measured, it isn't faster."
-```
+I train vision models, make them fast, and ship them.
 
-## 🏆 By the numbers
+Most of my time goes into the unglamorous half of AI — taking a model from a paper to something that actually runs on real hardware. Multi-day pre-training runs, TensorRT engines that refuse to build, CUDA kernels that overflow once the images get big enough. Lately that has meant 3D Gaussian Splatting for **Viettel AI Race 2026** (made the final), inference-efficient ConvMAE backbones for my capstone, and LLM products with my team at **TSC**.
+
+## ⚙️ What I actually do
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <h2>#5 ➜ Final</h2>
-      <sub><b>Viettel AI Race 2026</b><br/>BTS Digital Twin · 3D NVS</sub>
-    </td>
-    <td align="center" width="25%">
-      <h2>+27%</h2>
-      <sub><b>Throughput</b><br/>1,331 img/s · TensorRT FP16</sub>
-    </td>
-    <td align="center" width="25%">
-      <h2>4 × 300 ep</h2>
-      <sub><b>ImageNet-1K MAE</b><br/>pre-training runs</sub>
-    </td>
-    <td align="center" width="25%">
-      <h2>98.9%</h2>
-      <sub><b>Plate accuracy</b><br/>Vietnamese LPR</sub>
-    </td>
+    <td width="30%"><b>🧠 Train vision models</b></td>
+    <td>Self-supervised / MAE pre-training at ImageNet scale, multi-GPU DDP, mixed precision, and ablations designed so the comparison is actually fair.</td>
+  </tr>
+  <tr>
+    <td><b>⚡ Make them fast</b></td>
+    <td>PyTorch → ONNX → TensorRT, FP16 vs FP32 profiling, measuring latency, throughput and VRAM per pipeline instead of trusting parameter counts.</td>
+  </tr>
+  <tr>
+    <td><b>🛰️ Rebuild the world in 3D</b></td>
+    <td>Gaussian Splatting with gsplat — sharded training across GPUs, ensemble fusion, camera-model plumbing, and patching the rasterizer when it breaks.</td>
+  </tr>
+  <tr>
+    <td><b>🤖 Ship LLM products</b></td>
+    <td>Agent backends with live CRM context, vision-LLM content pipelines, retries and circuit breakers, APIs that survive real traffic.</td>
+  </tr>
+  <tr>
+    <td><b>🧱 Build the plumbing</b></td>
+    <td>TypeScript / Express and Python services, PostgreSQL, Redis, S3 / MinIO, Docker — whatever the model needs to live in production.</td>
   </tr>
 </table>
 
@@ -153,13 +149,36 @@ class Quang:
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge" />
 <img src="https://img.shields.io/badge/gsplat-222?style=for-the-badge" />
-
 <br/><br/>
-
 **Backend, data & infra**<br/>
 <img src="https://skillicons.dev/icons?i=ts,nodejs,express,react,django,postgres,redis,sqlite,docker,linux,git&theme=dark" />
 
 </div>
+
+## 📜 Certifications
+
+<table>
+  <tr>
+    <td>🧠 <a href="https://www.coursera.org/account/accomplishments/specialization/YS7JV6ONIOL4"><b>TensorFlow Developer Professional Certificate</b></a></td>
+    <td><sub>DeepLearning.AI</sub></td>
+  </tr>
+  <tr>
+    <td>🏭 <a href="https://www.coursera.org/account/accomplishments/specialization/FYJ40YBBNGUZ"><b>AI Enterprise Workflow Specialization</b></a> — model deployment &amp; AI in production</td>
+    <td><sub>IBM</sub></td>
+  </tr>
+  <tr>
+    <td>💬 <b>NLP</b> — <a href="https://www.coursera.org/account/accomplishments/records/UVXRJ8OY5JJL">Attention Models</a> · <a href="https://www.coursera.org/account/accomplishments/records/PPT9U5A79N1Q">Sequence Models</a></td>
+    <td><sub>DeepLearning.AI</sub></td>
+  </tr>
+  <tr>
+    <td>📊 <a href="https://www.coursera.org/account/accomplishments/records/Z3QTSMA0F6RD"><b>Machine Learning With Big Data</b></a></td>
+    <td><sub>UC San Diego</sub></td>
+  </tr>
+  <tr>
+    <td>🐳 <a href="https://www.coursera.org/account/accomplishments/records/PCINXA4G9T71"><b>Containers: Docker, Kubernetes &amp; OpenShift</b></a> · <a href="https://www.coursera.org/account/accomplishments/records/6GHP6W2NVZP3">Microservices &amp; Serverless</a></td>
+    <td><sub>IBM</sub></td>
+  </tr>
+</table>
 
 ## 📄 Writing
 
