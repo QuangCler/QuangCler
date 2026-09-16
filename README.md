@@ -1,68 +1,170 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:1f6feb,100:8957e5&height=230&section=header&text=Tran%20Ngoc%20Quang&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%203D%20Reconstruction%20%E2%80%A2%20LLM%20Systems&descAlignY=56&descSize=18&animation=fadeIn" />
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&lines=AI+Engineer+%E2%80%94+Computer+Vision+%26+3D;Self-supervised+pre-training+at+ImageNet+scale;Viettel+AI+Race+2026+%E2%80%94+%235+Round+1+%E2%86%92+Final;Shipping+fast+models+with+TensorRT+%E2%9A%A1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Shipping+them+27%25+faster+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%E2%80%94+Viettel+AI+Race+2026+Finalist;Building+production+LLM+systems+at+TSC" alt="Typing SVG" />
 
-# Tran Ngoc Quang
+<br/>
 
-**AI Engineer · Computer Vision · 3D Reconstruction · Efficient Inference · LLM Systems**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-quangcler-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quangcler/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-quangcler-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/quangcler)
-[![Email](https://img.shields.io/badge/Email-quang.aidev%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:quang.aidev@gmail.com)
-![Location](https://img.shields.io/badge/Ho_Chi_Minh_City-Vietnam-DA251D?style=flat-square)
+<a href="https://www.linkedin.com/in/quangcler/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.kaggle.com/quangcler"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+<a href="mailto:quang.aidev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://quangcler.github.io/ghostconvmae-face-demo/"><img src="https://img.shields.io/badge/Live_Demo_Page-181717?style=for-the-badge&logo=githubpages&logoColor=white" /></a>
 
 </div>
 
----
+<br/>
 
-### ⚡ What I do
+## 🧑‍💻 About me
 
-- **Train** vision models from scratch — MAE / self-supervised pre-training on ImageNet-1K, multi-GPU, mixed precision, strictly controlled ablations.
-- **Ship** them fast — ONNX → TensorRT, latency / throughput / VRAM measured per pipeline, running on anything from an RTX A5000 to a 4 GB laptop GPU.
-- **Reconstruct** the 3D world — Gaussian Splatting pipelines at competition scale, with 14M+ Gaussians per scene and custom patches to the CUDA rasterizer.
-- **Build** LLM products — agent backends with real-time CRM context, vision-LLM content pipelines, production-grade APIs.
+```python
+class Quang:
+    role       = "AI Engineer"
+    based_in   = "Ho Chi Minh City, Vietnam 🇻🇳"
+    focus      = ["Computer Vision", "3D Gaussian Splatting", "Self-Supervised Learning", "LLM Systems"]
+    ships_with = ["PyTorch", "TensorRT", "ONNX", "Docker"]
+    building   = "Production AI at TSC — Team Solo Code"
+    motto      = "If it isn't measured, it isn't faster."
+```
 
-### 🏆 Highlights
+## 🏆 By the numbers
 
-| | |
-|---|---|
-| 🥇 **Viettel AI Race 2026** | **#5 in Round 1** (BTS Digital Twin NVS, 76.25) → advanced to the **Final round** (large-scale urban NVS on H200) |
-| 🚀 **+27% throughput** | Ghost + ConvMAE backbone: **1,331 img/s** TensorRT FP16 vs 1,046 for ConvMAE-Base, fewer params, on-par CASIA-WebFace accuracy |
-| 🧪 **4 × 300-epoch** | ImageNet-1K MAE pre-training runs in one fair-comparison protocol (Ghost / Transformer / Mamba-2 / Bi-Mamba) |
-| 🎯 **98.9%** | End-to-end Vietnamese license plate accuracy (YOLOv11 + CNN-BiLSTM-CTC, mAP@0.5 0.994) |
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <h2>#5 ➜ Final</h2>
+      <sub><b>Viettel AI Race 2026</b><br/>BTS Digital Twin · 3D NVS</sub>
+    </td>
+    <td align="center" width="25%">
+      <h2>+27%</h2>
+      <sub><b>Throughput</b><br/>1,331 img/s · TensorRT FP16</sub>
+    </td>
+    <td align="center" width="25%">
+      <h2>4 × 300 ep</h2>
+      <sub><b>ImageNet-1K MAE</b><br/>pre-training runs</sub>
+    </td>
+    <td align="center" width="25%">
+      <h2>98.9%</h2>
+      <sub><b>Plate accuracy</b><br/>Vietnamese LPR</sub>
+    </td>
+  </tr>
+</table>
 
-### 🔭 Research & open-source
+## 🔭 Featured projects
 
-| Project | What I built | Result |
-|---|---|---|
-| [**Inference-Efficient ConvMAE**](https://github.com/QuangCler/inference-efficient-convmae) | 4-arm controlled study of hybrid Conv/Transformer/Mamba backbones: MAE pre-training → linear probe → face fine-tuning (3 seeds) → ONNX/TensorRT benchmarking with bias control | Showed parameter count does **not** predict real throughput; selected backbone is faster *and* lighter under TensorRT at FP16 and FP32 |
-| [**GhostConvMAE Face Demo**](https://github.com/QuangCler/ghostconvmae-face-demo) | Gradio app: 2 backbones × 5 tasks with live PyTorch ⇄ TensorRT switching on a 4 GB GTX 1650, per-forward latency & peak-VRAM accounting, automated self-test harness | 30/30 task × model × backend combos pass; TensorRT matches PyTorch top-1 everywhere |
-| [**Face-Aware MAE**](https://github.com/QuangCler/Face-Aware-MAE-Landmark-Guided-Face-Pretraining) | Landmark-guided masking policy for face MAE pre-training (paper) | **−17.5%** identity-critical reconstruction error vs block-wise masking |
-| [**Vietnamese LPR Benchmark**](https://github.com/QuangCler/QuangCler-Vietnamese-License-Plate-Recognition-Benchmark) | YOLOv5/v8/v11 × 3 OCR pipelines on real RTSP traffic data (8.2k + 3.7k images) | **98.9%** plate accuracy |
-| [**GenBGM API**](https://github.com/QuangCler/Audio-BE) | Dockerized GPU service generating background music from chat context (MusicGen) | Runs on 4 GB VRAM |
-| [**AI Talent Bot**](https://github.com/QuangCler/Telegram_AITalentBot_v2) | Telegram bot parsing PDF/DOCX CVs and scoring them against a JD with Gemini | — |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/QuangCler/inference-efficient-convmae">Inference-Efficient ConvMAE</a></h3>
+      Four hybrid backbones (Ghost · Transformer · Mamba-2 · Bi-Mamba), each MAE-pre-trained 300 epochs on ImageNet-1K and benchmarked under one fair protocol — PyTorch vs ONNX/TensorRT.
+      <br/><br/>
+      🎯 <b>Faster <i>and</i> lighter</b> than ConvMAE-Base under TensorRT, on-par face-ID accuracy
+      <br/><br/>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+      <img src="https://img.shields.io/badge/Mamba-6E40C9?style=flat-square" />
+      <img src="https://img.shields.io/badge/DDP-555?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧑‍🚀 <a href="https://github.com/QuangCler/ghostconvmae-face-demo">GhostConvMAE Face Demo</a></h3>
+      Two backbones × five tasks with a live <b>PyTorch ⇄ TensorRT</b> switch on a 4 GB GTX 1650 — per-forward latency, peak-VRAM accounting and an automated self-test harness.
+      <br/><br/>
+      🎯 <b>30 / 30</b> task × model × backend combos pass
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square" />
+      <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+      <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ BTS Digital Twin — Viettel AI Race 2026</h3>
+      Multi-backbone <b>3D Gaussian Splatting</b> for drone-captured telecom towers with SELECT-median ensemble fusion; final-round stack on H200.
+      <br/><br/>
+      🎯 <b>#5 in Round 1</b> (76.25) ➜ advanced to the <b>Final</b>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/gsplat-111?style=flat-square" />
+      <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
+      <img src="https://img.shields.io/badge/4×A5000_→_H200-333?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚘 <a href="https://github.com/QuangCler/QuangCler-Vietnamese-License-Plate-Recognition-Benchmark">Vietnamese LPR Benchmark</a></h3>
+      YOLOv5 / v8 / v11 × three OCR pipelines on real RTSP traffic-camera data (8.2k detection + 3.7k OCR images).
+      <br/><br/>
+      🎯 <b>98.9%</b> plate accuracy · mAP@0.5 <b>0.994</b>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/YOLOv11-00FFFF?style=flat-square&logoColor=black" />
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      <img src="https://img.shields.io/badge/CTC_OCR-555?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🙂 <a href="https://github.com/QuangCler/Face-Aware-MAE-Landmark-Guided-Face-Pretraining">Face-Aware MAE</a></h3>
+      Landmark-guided masking that points MAE pre-training at identity-critical facial regions — controlled against random and block-wise masking.
+      <br/><br/>
+      🎯 <b>−17.5%</b> identity-critical reconstruction error
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎵 <a href="https://github.com/QuangCler/Audio-BE">GenBGM API</a> · 🤖 <a href="https://github.com/QuangCler/Telegram_AITalentBot_v2">AI Talent Bot</a></h3>
+      Dockerized MusicGen service that scores chat conversations with background music on 4 GB VRAM · Gemini-powered bot that parses CVs and ranks them against a job description.
+    </td>
+  </tr>
+</table>
 
-### 🛠 Production work — [TSC · Team Solo Code](https://github.com/TSC-teamsolocode)
+## 🛠️ Production work · <a href="https://github.com/TSC-teamsolocode">TSC — Team Solo Code</a>
 
-- **3D Gaussian Splatting competition stack** — gsplat MCMC training sharded across 4×A5000 with shard merging; final-round recipe (multi-view gradient accumulation + regularization + fine-tuned SCUNet restoration) lifted the proxy score **+3.38**; audited and patched gsplat's CUDA projection against int32 intersection overflow at 21 MP full-res; reproducible Docker build for H200 (Hopper).
-- **AI consulting console for an education provider** — Express/TypeScript + React; LLM agents with real-time CRM context injection, background suggestion & lead-summary pipeline cached in Redis, retry + circuit breaker on every upstream, scoped API keys and rate limiting.
-- **Automated short-video pipeline** — MinIO asset indexing, ffmpeg frame sampling, vision-LLM tagging into SQLite FTS5, ETag-based incremental indexing (zero API calls on an unchanged library), 86 tests.
-- **License control plane** — Ed25519-signed licenses and signed revocation lists with offline grace period, CLI + admin web UI.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🎓 AI consulting console</b> <sub>for an education provider</sub><br/>
+      LLM agents with real-time CRM context, background suggestion &amp; lead-summary pipeline, Redis cache, retry + circuit breaker, scoped partner APIs.
+      <br/><sub>TypeScript · Express · React · PostgreSQL · Redis</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>🎬 Automated short-video pipeline</b><br/>
+      MinIO asset indexing → ffmpeg frame sampling → vision-LLM tagging into SQLite FTS5, ETag-incremental so an unchanged library costs zero API calls. 86 tests.
+      <br/><sub>Python · ffmpeg · S3 · Vision LLM · Docker</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🧊 3DGS competition infrastructure</b><br/>
+      Sharded gsplat MCMC training on 4×A5000, CUDA projection patch for int32 overflow at 21 MP, reproducible H200 build; final-round recipe <b>+3.38</b> points.
+      <br/><sub>gsplat · CUDA · Docker · SCUNet</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>🔐 License control plane</b><br/>
+      Ed25519-signed licenses and signed revocation lists with an offline grace period — CLI plus admin web UI for delivered software.
+      <br/><sub>Node.js · Ed25519 · JWT · SPA</sub>
+    </td>
+  </tr>
+</table>
 
-### 🧰 Stack
+## 🧰 Tech stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,docker,linux,ts,nodejs,express,react,redis,postgres,sqlite&perline=12" alt="stack" />
-</p>
+<div align="center">
 
-**Modeling** PyTorch · timm · Transformers · Mamba-SSM · gsplat · Ultralytics YOLO<br>
-**Training** DDP · FP16/BF16 · MAE / self-supervised pre-training · linear probe & fine-tune protocols<br>
-**Deployment** TensorRT · ONNX · CUDA · Docker · Gradio<br>
-**LLM** Coze agents · Gemini · OpenAI-compatible vision models · prompt/persona pipelines<br>
-**Backend** Python · TypeScript · Express · NestJS · Django · PostgreSQL · Redis · MinIO/S3
+**Modeling & training**<br/>
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn&theme=dark" /><br/>
+<img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge" />
+<img src="https://img.shields.io/badge/gsplat-222?style=for-the-badge" />
 
-### 📄 Writing
+<br/><br/>
 
-- *Inference-Efficient ConvMAE for Universal Visual Recognition Tasks* — capstone report, FPT University, 2026
-- *Identity-Aware Masked Autoencoding for Face Representation Pretraining: A Controlled Comparison of Region-Based Masking Strategies*
-- *A Comparative Benchmark Study for Vietnamese License Plate Recognition*, 2026
+**Backend, data & infra**<br/>
+<img src="https://skillicons.dev/icons?i=ts,nodejs,express,react,django,postgres,redis,sqlite,docker,linux,git&theme=dark" />
+
+</div>
+
+## 📄 Writing
+
+- 📘 **Inference-Efficient ConvMAE for Universal Visual Recognition Tasks** — capstone report, FPT University, 2026
+- 📗 **Identity-Aware Masked Autoencoding for Face Representation Pretraining** — a controlled comparison of region-based masking strategies
+- 📙 **A Comparative Benchmark Study for Vietnamese License Plate Recognition**, 2026
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8957e5,55:1f6feb,100:0d1117&height=120&section=footer" />
