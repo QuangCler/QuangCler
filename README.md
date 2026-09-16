@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Making+them+fast+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%E2%80%94+Viettel+AI+Race+2026+Finalist;Building+production+LLM+systems+at+TSC" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Making+them+fast+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%C2%B7+Viettel+AI+Race+2026+Top+4;Building+LLM+systems+at+TSC" alt="Typing SVG" />
 
 <br/>
 
@@ -19,7 +19,7 @@
 
 I train vision models, make them fast, and ship them.
 
-Most of my time goes into the unglamorous half of AI — taking a model from a paper to something that actually runs on real hardware. Multi-day pre-training runs, TensorRT engines that refuse to build, CUDA kernels that overflow once the images get big enough. Lately that has meant 3D Gaussian Splatting for **Viettel AI Race 2026** (made the final), inference-efficient ConvMAE backbones for my capstone, and LLM products with my team at **TSC**.
+Most of my time goes into the unglamorous half of AI — taking a model from a paper to something that actually runs on real hardware. Multi-day pre-training runs, TensorRT engines that refuse to build, CUDA kernels that overflow once the images get big enough. Lately that has meant 3D Gaussian Splatting for **Viettel AI Race 2026** (Top 4 with team Zillexa), inference-efficient ConvMAE backbones for my capstone, and LLM products with my team at **TSC**.
 
 ## ⚙️ What I actually do
 
@@ -37,8 +37,8 @@ Most of my time goes into the unglamorous half of AI — taking a model from a p
     <td>Gaussian Splatting with gsplat — sharded training across GPUs, ensemble fusion, camera-model plumbing, and patching the rasterizer when it breaks.</td>
   </tr>
   <tr>
-    <td><b>🤖 Ship LLM products</b></td>
-    <td>Agent backends with live CRM context, vision-LLM content pipelines, retries and circuit breakers, APIs that survive real traffic.</td>
+    <td><b>🤖 Build LLM systems</b></td>
+    <td>LLM backends with live CRM context, vision-LLM content pipelines, retries, circuit breakers and rate limits.</td>
   </tr>
   <tr>
     <td><b>🧱 Build the plumbing</b></td>
@@ -74,10 +74,10 @@ Most of my time goes into the unglamorous half of AI — taking a model from a p
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛰️ BTS Digital Twin — Viettel AI Race 2026</h3>
-      Multi-backbone <b>3D Gaussian Splatting</b> for drone-captured telecom towers with SELECT-median ensemble fusion; final-round stack on H200.
+      <h3>🛰️ BTS Digital Twin · Viettel AI Race 2026</h3>
+      Novel view synthesis of telecom towers from drone captures with 3D Gaussian Splatting: gsplat MCMC backbone, SIMPLE_RADIAL cameras handled by undistorting, training in pinhole and re-distorting, and multi-backbone ensembles fused with SELECT-median. The final moved to large urban scenes under an inference-time limit on H200 — capped MCMC, weight decay, multi-view gradient accumulation, a fine-tuned SCUNet restoration pass, and count-based pruning to trade quality against render time.
       <br/><br/>
-      🎯 <b>#5 in Round 1</b> (76.25) ➜ advanced to the <b>Final</b>
+      <b>Top 4</b> with team Zillexa · one of 12 finalist teams
       <br/><br/>
       <img src="https://img.shields.io/badge/gsplat-111?style=flat-square" />
       <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
@@ -108,31 +108,33 @@ Most of my time goes into the unglamorous half of AI — taking a model from a p
   </tr>
 </table>
 
-## 🛠️ Production work · <a href="https://github.com/TSC-teamsolocode">TSC — Team Solo Code</a>
+## 🛠️ Work at TSC — Team Solo Code
+
+<sub>Three-person team. Repos are private — happy to walk through any of these.</sub>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>🎓 AI consulting console</b> <sub>for an education provider</sub><br/>
-      LLM agents with real-time CRM context, background suggestion &amp; lead-summary pipeline, Redis cache, retry + circuit breaker, scoped partner APIs.
-      <br/><sub>TypeScript · Express · React · PostgreSQL · Redis</sub>
+      <b>AI consulting console</b> <sub>for an education provider</sub><br/>
+      LLM bots wired to a CRM, with fresh CRM context injected on every turn. A fire-and-forget pipeline writes advisor reply suggestions and a lead summary into Redis, so the chat turn never waits on it. Persona compiler for prompt updates, output sanitizer, scoped API keys with rate limiting, one shared HTTP client with retry and circuit breaker.
+      <br/><sub>TypeScript · Express · React/Vite · PostgreSQL · Redis · Coze</sub>
     </td>
     <td width="50%" valign="top">
-      <b>🎬 Automated short-video pipeline</b><br/>
-      MinIO asset indexing → ffmpeg frame sampling → vision-LLM tagging into SQLite FTS5, ETag-incremental so an unchanged library costs zero API calls. 86 tests.
-      <br/><sub>Python · ffmpeg · S3 · Vision LLM · Docker</sub>
+      <b>Short-video pipeline</b> <sub>in progress</sub><br/>
+      Indexes a MinIO library incrementally by ETag, samples frames per clip with ffmpeg, and classifies them with a vision LLM against a strict JSON schema into SQLite FTS5. The source bucket is enforced read-only, and a facts corpus is in place so generated scripts will have to cite a <code>fact_id</code> for every claim. Tested with moto and httpx MockTransport.
+      <br/><sub>Python · ffmpeg · MinIO/S3 · Vision LLM · SQLite FTS5</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b>🧊 3DGS competition infrastructure</b><br/>
-      Sharded gsplat MCMC training on 4×A5000, CUDA projection patch for int32 overflow at 21 MP, reproducible H200 build; final-round recipe <b>+3.38</b> points.
-      <br/><sub>gsplat · CUDA · Docker · SCUNet</sub>
+      <b>3DGS training infrastructure</b> <sub>Viettel AI Race 2026</sub><br/>
+      gsplat MCMC training sharded across 4×A5000 with a merge step and a monitor for idle GPUs. For the final: a Hopper (sm_90) Docker build for H200, and an audit of gsplat's CUDA projection that turned up an int32 intersection overflow at full resolution, fixed by clamping the projected radius.
+      <br/><sub>gsplat · CUDA · PyTorch · Docker · H200</sub>
     </td>
     <td width="50%" valign="top">
-      <b>🔐 License control plane</b><br/>
-      Ed25519-signed licenses and signed revocation lists with an offline grace period — CLI plus admin web UI for delivered software.
-      <br/><sub>Node.js · Ed25519 · JWT · SPA</sub>
+      <b>License control plane</b><br/>
+      Ed25519-signed licenses, a signed revocation list and an offline grace period — designed so an outage on the licensor side never takes customers down. CLI plus a JWT-protected admin UI.
+      <br/><sub>Node.js · Ed25519 · JWT</sub>
     </td>
   </tr>
 </table>
