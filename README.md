@@ -21,6 +21,8 @@ I train vision models, make them fast, and ship them.
 
 Most of my time goes into the unglamorous half of AI — taking a model from a paper to something that actually runs on real hardware. Multi-day pre-training runs, TensorRT engines that refuse to build, CUDA kernels that overflow once the images get big enough. Lately that has meant 3D Gaussian Splatting for **Viettel AI Race 2026** (Top 4 with team Zillexa), inference-efficient ConvMAE backbones for my capstone, and LLM products with my team at **TSC**.
 
+> 🟢 **Open to AI Engineer roles** — computer vision, 3D, or LLM systems. Ping me at quang.aidev@gmail.com.
+
 ## ⚙️ What I actually do
 
 <table>
@@ -110,7 +112,7 @@ Most of my time goes into the unglamorous half of AI — taking a model from a p
 
 ## 🛠️ Work at TSC — Team Solo Code
 
-<sub>Three-person team. Repos are private — happy to walk through any of these.</sub>
+<sub>I'm a core engineer on TSC, a three-person team shipping client AI systems and competing in AI challenges. Repos are private — happy to walk through any of these.</sub>
 
 <table>
   <tr>
