@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Making+them+fast+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%C2%B7+Viettel+AI+Race+2026+Top+4;Building+LLM+systems+at+TSC" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=58A6FF&center=true&vCenter=true&width=780&lines=Pre-training+vision+models+at+ImageNet+scale;Making+them+fast+with+TensorRT+%E2%9A%A1;3D+Gaussian+Splatting+%C2%B7+Viettel+AI+Race+2026+Top+4;Part-time+LLM+projects+with+TSC" alt="Typing SVG" />
 
 <br/>
 
@@ -20,9 +20,9 @@
 
 I train vision models, make them fast, and ship them.
 
-Most of my time goes into the unglamorous half of AI — taking a model from a paper to something that actually runs on real hardware. Multi-day pre-training runs, TensorRT engines that refuse to build, CUDA kernels that overflow once the images get big enough. Lately that has meant 3D Gaussian Splatting for **Viettel AI Race 2026** (Top 4 with team Zillexa), inference-efficient ConvMAE backbones for my capstone, and LLM products with my team at **TSC**.
+Most of my time goes into the unglamorous half of AI — taking a model from a paper to something that actually runs on real hardware. Multi-day pre-training runs, TensorRT engines that refuse to build, CUDA kernels that overflow once the images get big enough. Lately that has meant 3D Gaussian Splatting for **Viettel AI Race 2026** (Top 4 with team Zillexa), inference-efficient ConvMAE backbones for my capstone, and part-time LLM projects with **TSC**, a three-person team for client work and AI competitions. From Aug 2025 to Aug 2026 I was an AI Engineer at **Whammy Tech**, building real-time fall detection on live patient-monitoring cameras.
 
-> 🟢 **Open to AI Engineer roles** — computer vision, 3D, or LLM systems. Ping me at quang.aidev@gmail.com.
+> 🟢 **Open to full-time AI Engineer roles** — computer vision, 3D, or LLM systems. Ping me at quang.aidev@gmail.com.
 
 ## ⚙️ What I actually do
 
@@ -111,9 +111,9 @@ Most of my time goes into the unglamorous half of AI — taking a model from a p
   </tr>
 </table>
 
-## 🛠️ Work at TSC — Team Solo Code
+## 🛠️ Part-time projects with TSC — Team Solo Code
 
-<sub>I'm a core engineer on TSC, a three-person team shipping client AI systems and competing in AI challenges. Repos are private — happy to walk through any of these.</sub>
+<sub>TSC is a three-person team I work with part-time on client AI projects and AI competitions — not a full-time job. Repos are private — happy to walk through any of these.</sub>
 
 <table>
   <tr>
